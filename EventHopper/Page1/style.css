@@ -1,0 +1,49 @@
+body {
+  background-color: #FFFFFF;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.event-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: 20px auto;
+  overflow: hidden;
+  background-color: #fff;
+  position: relative;
+  text-align: center;
+}
+
+.event-image {
+  width: 100;
+  height: auto;
+  display: block;
+}
+
+.event-details {
+  padding: 15px;
+}
+
+.event-title {
+  color: #F43F5E;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 0 0 10px 0;
+  text-align: center;
+}
+
+.event-info {
+  font-size: 16px;
+  color: #333;
+  margin: 5px 0;
+}
+
+.highlight-icon {
+  color: #FFD700;
+  font-size: 25px;
+  position: absolute;
+  top: 20px;
+  right: 10px;
+}
